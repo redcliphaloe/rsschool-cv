@@ -4,10 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
-<body>
-    
+<body class="container">
+    <header class="header">
+        <h2>redcliphaloe</h2>
+        <nav class="nav">
+            <ul class="menu">                
+                <li><a href="#home">home</a></li>
+                <li><a href="#contacts">contacts</a></li>
+                <li><a href="#about-me">about me</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#example">example</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#languages">languages</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main class="main">
+        <section class="home" id="home">            
+            <h1>Artem Siuzev</h1>
+            <img src="https://sun1-19.userapi.com/s/v1/if1/rhMIM20IyCpEnnPVcwfY_SzkQpgJ0I_usWpUlmtG9t4OEL7UxZ4fxs4qKLP4LCnHPHbwcXJC.jpg?size=200x200&amp;quality=96&amp;crop=282,0,1698,1698&amp;ava=1" alt="Photo" />
+        </section>        
+        <section class="contacts" id="contacts">
+            <h2>Contacts:</h2>
+            <ul>
+                <li>Phone: +79127235585</li>
+                <li>E-mail: redcliphaloe@gmail.com</li>
+                <li>Discord: redcliphaloe#3993</li>
+                <li>Telegram: @redcliphaloe</li>
+              </ul>            
+        </section>
+        <section class="about" id="about-me">
+            <h2>About me:</h2>            
+            <q>
+                I am 37 years old. I am a Delphi and PL/SQL developer. I have previously written applied accounting and banking software. I decided to change my specialization and take up the Web.
+            </q>                        
+        </section>
+        <section class="skills" id="skills">
+            <h2>Skills:</h2>
+            <ul>
+              <li>Delphi, Direct Oracle Access, DevExpress, FastReport</li>
+              <li>Oracle SQL, PL/SQL</li>
+              <li>1С</li>
+              <li>Mercurial, Git</li>
+            </ul>            
+        </section>
+        <section class="example" id="example">
+            <h2>Example:</h2>
+            <pre>
+                <code>
+function euclideanDistance(point1, point2){
+    let res = 0;
+    for (let i = 0; i &lt; point1.length; i++) {
+        res += Math.pow(point2[i] - point1[i], 2);
+    }
+    return Math.round(Math.sqrt(res) * 100, 2) / 100;
+}
+                </code>
+            </pre>
+        </section>
+        <section class="experience" id="experience">
+            <h2>Experience:</h2>
+            <ul>
+              <li>Omutninsk metallurgical plant (13 years)</li>
+              <li>Colvir (1 year)</li>
+            </ul>            
+        </section>
+        <section class="projects" id="projects">
+            <h2>Projects:</h2>
+            <ul>
+                <li><a href="https://redcliphaloe.github.io/liveMonitor/" target="blanc">Live Monitor (HTML/CSS/JS)</a></li>
+              </ul>                
+        </section>
+        <section class="education" id="education">
+            <h2>Education:</h2>
+            <p>Higher education, engineer, graduated from Moscow State Institute of Steel and Alloys (Technological University)</p>            
+        </section>
+        <section class="languages" id="languages">
+            <h2>Languages:</h2>
+            <ul>
+              <li>Russian - native</li>
+              <li>English - A2</li>
+            </ul>            
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2022</p>
+        <a href="https://github.com/redcliphaloe" target="blanc">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub logo" height="35">
+        </a>
+        <a href="https://rs.school/js/" target="blanc">
+            <img src="https://rs.school/images/rs_school_js.svg" alt="RSS logo" height="35">
+        </a>
+    </footer>
 </body>
 </html>
