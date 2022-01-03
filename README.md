@@ -1,1 +1,1 @@
-# rsschool-cv
+https://redcliphaloe.github.io/rsschool-cv/cv
